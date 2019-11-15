@@ -24,6 +24,28 @@
 // console.log(diff([1, 2, 3, 4, 5, 6, 7]))
 
 // simplest way to check for truthy value
-isTruthy = (input) => +!!input;
+// isTruthy = (input) => +!!input;
 
-console.log(isTruthy(true))
+// console.log(isTruthy(true))
+
+
+let counting = false
+
+button1.function start() {
+  console.log('counting', counting)
+  counting = true
+  count++ 
+  setInterval(1000)
+}
+button2.function stop() {
+  counting = false
+  clearInterval(interval(start));
+}
+
+function theCheck() {
+  if(counting === false) {
+    count = 0
+  } else {
+    count = //how ever long the timer is
+  }
+}
