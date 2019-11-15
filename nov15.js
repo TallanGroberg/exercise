@@ -1,33 +1,29 @@
-// const lessThanOrEqual = (num) => {
-//   if(num > 0) {
-//     return false
-//   } else if (num === 0) {
-//     return true
-//   } else {
-//     return true
+
+// function fibonacci(num){
+//   var a = 1;
+//   var b = 0;
+//   var temp;
+
+//   while (num >= 0){
+//     temp = a;
+//     a = a + b;
+//     b = temp;
+//     num--;
 //   }
+
+//   return b;
 // }
 
-// console.log(lessThanOrEqual(0))
-
-// const squared = (a) => a * a 
-
-// console.log(squared(5))
-
-// const nameShuffle = str => str.split(' ').reverse().join(' ')
-
-// console.log(nameShuffle('tallan groberg'))
-
-// const isIdentical = str => {
-//    const toArr = str.split('')
-//    const toSet = new Set(toArr)
-//    const backToArr = [...toSet]
-//    return backToArr.length === 1 ? true : false
+// function fibonacci(num) {
+//   if (num <= 1) return 1;
+//   return fibonacci(num - 1) + fibonacci(num - 2)
 // }
+// console.log(fibonacci(11))
 
+// const diff = nums => Math.max(...nums) - Math.min(...nums)
+// console.log(diff([1, 2, 3, 4, 5, 6, 7]))
 
-// const isIdentical = s => new Set(s).size === 1
+// simplest way to check for truthy value
+isTruthy = (input) => +!!input;
 
-// const isIdentical = s => [...s].every(lett => lett === s[0])
-
-// console.log(isIdentical('ssssd'))
+console.log(isTruthy(true))
