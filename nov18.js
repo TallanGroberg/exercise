@@ -66,21 +66,21 @@
   // for (const key of iterator) {
     //   console.log(key);
     // }
-    // const array1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+    const array1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
 
 
-    // console.log(array1.splice(2,0,'filler'))
+    console.log(array1.splice(2,0,'filler'))
 
-    const object1 = {
-      a: 'somestring',
-      b: 42,
-      c: false
-    };
+    // const object1 = {
+    //   a: 'somestring',
+    //   b: 42,
+    //   c: false
+    // };
 
-    const person = {
-      name: 'dude',
-      age: 12,
-    }
+    // const person = {
+    //   name: 'dude',
+    //   age: 12,
+    // }
     // works like concat but for objects
     // console.log(Object.assign(object1, person))
     // console.log(Object.values(object1))
